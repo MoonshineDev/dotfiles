@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[user]
+	email = zett@example.com
+	name = Zett Moonshine
+[push]
+	autoSetupRemote = true

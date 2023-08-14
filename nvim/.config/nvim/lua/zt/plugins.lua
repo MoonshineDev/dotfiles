@@ -39,5 +39,8 @@ return require('packer').startup(function(use)
 		"nvim-treesitter/nvim-treesitter",
 		{ run = ":TSUpdate" },
 	}
+
+	-- Harpoon - File bookmarker
+	use "ThePrimeagen/harpoon"
 end)
 

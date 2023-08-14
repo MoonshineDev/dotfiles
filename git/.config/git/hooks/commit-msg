@@ -1,0 +1,3 @@
+#!/bin/sh
+npx --no -- commitlint --config ~/.config/git/commitlint.config.js --edit ${1}
+

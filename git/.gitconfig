@@ -5,3 +5,5 @@
 	name = Zett Moonshine
 [push]
 	autoSetupRemote = true
+[core]
+	hooksPath = /home/zett/.config/git/hooks

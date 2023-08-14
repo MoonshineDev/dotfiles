@@ -33,5 +33,11 @@ return require('packer').startup(function(use)
 
 	-- Tokyo Night - Color themes
 	use "folke/tokyonight.nvim"
+
+	-- Treesitter - Parse generator tool
+	use {
+		"nvim-treesitter/nvim-treesitter",
+		{ run = ":TSUpdate" },
+	}
 end)
 

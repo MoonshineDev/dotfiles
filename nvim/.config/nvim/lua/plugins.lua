@@ -42,5 +42,8 @@ return require('packer').startup(function(use)
 
 	-- Harpoon - File bookmarker
 	use "ThePrimeagen/harpoon"
+
+	-- Undotree - Undo history visualizer
+	use "mbbill/undotree"
 end)
 

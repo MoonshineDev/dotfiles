@@ -45,5 +45,8 @@ return require('packer').startup(function(use)
 
 	-- Undotree - Undo history visualizer
 	use "mbbill/undotree"
+
+	-- Fugitive - Git wrapper
+	use "tpope/vim-fugitive"
 end)
 

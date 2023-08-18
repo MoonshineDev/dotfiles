@@ -1,4 +1,10 @@
-local lsp = require('lsp-zero').preset({})
+local lsp = require('lsp-zero')
+
+lsp.preset({})
+
+lsp.ensure_installed({
+	"lua_ls",
+})
 
 lsp.on_attach(function(client, bufnr)
   -- see :help lsp-zero-keybindings

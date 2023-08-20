@@ -4,6 +4,7 @@ lsp.preset({})
 
 lsp.ensure_installed({
 	"lua_ls",
+	"rust_analyzer",
 })
 
 lsp.on_attach(function(client, bufnr)

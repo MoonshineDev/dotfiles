@@ -105,6 +105,7 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+source ~/.config/zsh/init.sh
 source /usr/share/nvm/init-nvm.sh
 
 # pnpm

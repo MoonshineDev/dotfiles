@@ -124,3 +124,11 @@ case ":$PATH:" in
 esac
 # cargo end
 
+# cargo2
+export CARGO_INSTALL_ROOT2="/home/zett/.cargo/bin/bin"
+case ":$PATH:" in
+	*":$CARGO_INSTALL_ROOT2:"*) ;;
+	*) export PATH="$CARGO_INSTALL_ROOT2:$PATH" ;;
+esac
+# cargo2 end
+

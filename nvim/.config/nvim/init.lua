@@ -1,3 +1,3 @@
-require("keymaps")
-require("style")
+require("core.keymaps")
+require("core.style")
 

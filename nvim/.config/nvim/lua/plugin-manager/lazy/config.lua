@@ -1,4 +1,2 @@
-require("lazy").setup({
-	-- TODO: add plugins here
-})
+require("lazy").setup("plugins")
 

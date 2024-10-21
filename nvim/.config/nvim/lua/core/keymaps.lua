@@ -5,5 +5,7 @@ vim.keymap.set("n", "<Leader>e", ":Explore<cr>")
 vim.keymap.set("n", "<C-h>", "<C-w>h")
 vim.keymap.set("n", "<C-l>", "<C-w>l")
 -- Plugin nvim-tree
-vim.keymap.set("n", "<Leader>n", ":NvimTreeToggle<cr>")
+if _G.use_nvim_tree then
+	vim.keymap.set("n", "<Leader>n", ":NvimTreeToggle<cr>")
+end
 

@@ -1,4 +1,4 @@
-_G.use_nvim_tree = true
+_G.use_nvim_tree = false
 if not _G.use_nvim_tree then
 	return {}
 else

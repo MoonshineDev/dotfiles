@@ -1,4 +1,5 @@
 if not _G.use_nvim_tree then
+	print "Skipping plugin: nvim-tree"
 	return {}
 end
 

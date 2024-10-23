@@ -1,5 +1,7 @@
-_G.use_nvim_tree = false -- file explorer, replaces netrw
-_G.use_lualine = true    -- status bar at bottom of window
+-- file explorer, replaces netrw
+_G.use_nvim_tree = false
+-- status bar at bottom of window
+_G.use_lualine = true
 
 require("lazy").setup("plugins")
 
